@@ -1,0 +1,48 @@
+{
+  "name": "learn-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afifnandya/learn-jest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afifnandya/learn-jest/issues"
+  },
+  "homepage": "https://github.com/afifnandya/learn-jest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "jest": "^24.9.0",
+    "vue-jest": "^3.0.5",
+    "vue-loader": "^15.7.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "global": "^4.4.0",
+    "jest-cli": "^24.9.0",
+    "vue": "^2.6.10"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "vue-jest"
+    }
+  }
+}
